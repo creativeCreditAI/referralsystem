@@ -18,16 +18,16 @@ else:
     if DATABASE_URL.startswith("postgres://"):
         DATABASE_URL = DATABASE_URL.replace(
             "postgres://",
-            "postgresql+pg8000://",
+            "postgresql+psycopg://",
             1
         )
     elif DATABASE_URL.startswith("postgresql://"):
         DATABASE_URL = DATABASE_URL.replace(
             "postgresql://",
-            "postgresql+pg8000://",
+            "postgresql+psycopg://",
             1
         )
-    elif DATABASE_URL.startswith("postgresql+psycopg2://"):
+    elif DATABASE_URL.startswith("postgresql+psycopg://"):
         DATABASE_URL = DATABASE_URL.replace(
             "postgresql+psycopg2://",
             "postgresql+pg8000://",
