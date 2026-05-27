@@ -92,7 +92,7 @@ export default function App() {
   return (
     <div className="page">
       <header className="app-header">
-        <img src="/krova-logo.svg" alt="Korva" className="logo" />
+        <img src="/logo.png" alt="Korva" className="logo" />
       </header>
       <section className="hero">
         <div className="brand-block">
