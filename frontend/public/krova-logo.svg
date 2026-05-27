@@ -1,0 +1,24 @@
+<svg viewBox="0 0 500 300" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="500" height="300" fill="#4b2f69"/>
+  
+  <!-- Orange letter K -->
+  <text x="50" y="200" font-size="180" font-weight="bold" fill="#ff8a1f" font-family="Arial, sans-serif">K</text>
+  
+  <!-- Geometric shape -->
+  <g transform="translate(180, 100)">
+    <!-- Diamond pattern -->
+    <rect x="0" y="0" width="40" height="40" fill="#9966ff" transform="rotate(45 20 20)"/>
+    <rect x="50" y="0" width="40" height="40" fill="#ff8a1f" transform="rotate(45 70 20)"/>
+    <rect x="100" y="0" width="40" height="40" fill="#9966ff" transform="rotate(45 120 20)"/>
+    
+    <rect x="25" y="50" width="40" height="40" fill="#ff8a1f" transform="rotate(45 45 70)"/>
+    <rect x="75" y="50" width="40" height="40" fill="#9966ff" transform="rotate(45 95 70)"/>
+  </g>
+  
+  <!-- Orange circle -->
+  <circle cx="350" cy="120" r="60" fill="#ff8a1f"/>
+  
+  <!-- Text "KROVA" -->
+  <text x="60" y="250" font-size="120" font-weight="bold" fill="#ff8a1f" font-family="Arial, sans-serif">ROVA</text>
+</svg>
