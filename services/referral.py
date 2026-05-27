@@ -7,8 +7,9 @@ from sqlalchemy.orm import Session
 from models.models import Referral, RewardSystem, User
 
 
-FRONTEND_URL = os.getenv("FRONTEND_URL", "http://localhost:5173")
-BASE_REF_URL = os.getenv("BASE_REF_URL", "http://localhost:8000/api/r")
+BACKEND_URL = os.getenv("BACKEND_URL", "http://localhost:8000")
+BACKEND_URL = os.getenv("BACKEND_URL", "http://localhost:8000")
+BASE_REF_URL = f"{BACKEND_URL}/api/r"
 
 
 def generate_referral_token() -> str:

@@ -14,7 +14,7 @@ from services.email import send_welcome_email, send_referral_bonus_email
 
 router = APIRouter()
 
-FRONTEND_URL = os.getenv("FRONTEND_URL", "http://localhost:5173")
+FRONTEND_URL = os.getenv("FRONTEND_URL")
 
 
 @router.post("/referral/", status_code=status.HTTP_201_CREATED, response_model=SignupResponse)
